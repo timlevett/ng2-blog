@@ -1,3 +1,4 @@
-export class Post {
-  constructor(public title: string){}
+export interface Post {
+  title: string;
+  text : string;
 }

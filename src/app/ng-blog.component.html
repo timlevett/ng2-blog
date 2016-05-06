@@ -2,10 +2,9 @@
   {{title}}
 </h1>
 
-<div class='posts'>
-  <ul>
-    <li *ngFor="let item of posts; let i = index">
-      <app-post [post]="item"></app-post>
-    </li>
-  </ul>
-</div>
+<nav>
+  <a [routerLink]="['/single-post']">Single Post</a>
+  <a [routerLink]="['/list-posts']">List Posts</a>
+</nav>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,7 @@
+<div class='posts'>
+  <ul>
+    <li *ngFor="let item of posts; let i = index">
+      <app-post [post]="item"></app-post>
+    </li>
+  </ul>
+</div>

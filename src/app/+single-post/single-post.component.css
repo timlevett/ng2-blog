@@ -1,0 +1,20 @@
+.prev {
+  display: inline-block;
+  width : 10%;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.next {
+  display: inline-block;
+  width : 8%;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.post {
+  display: inline-block;
+  width : 80%;
+}
