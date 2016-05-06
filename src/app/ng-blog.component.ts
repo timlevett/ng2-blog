@@ -8,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class NgBlogAppComponent {
   title = 'ng-blog works!';
+  posts = [
+    {
+      name : 'First!'
+    },
+    {
+      name : 'Second'
+    }
+  ]
 }
