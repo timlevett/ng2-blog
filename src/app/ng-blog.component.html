@@ -5,7 +5,7 @@
 <div class='posts'>
   <ul>
     <li *ngFor="let item of posts; let i = index">
-      {{i}} : {{item.name}}
+      <app-post [post]="item"></app-post>
     </li>
   </ul>
 </div>
