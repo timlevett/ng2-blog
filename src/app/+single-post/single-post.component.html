@@ -1,5 +1,7 @@
-<div>
-  <div class='prev'>Previous</div>
+<div class='single-post'>
+  <div class='prev'>
+    <button (click)='changePost(-1)' *ngIf='index !== 0'>Previous</button>
+  </div>
   <app-post [post]="post" class='post'></app-post>
-  <div class='next'>Next</div>
+  <div class='next'><button (click)='changePost(1)' *ngIf='index !== posts.length - 1'>Next</button></div>
 </div>
